@@ -37,7 +37,6 @@ def decompresser_fichiers_tar(dossier_source, dossier_destination=None):
         except Exception as e:
             print(f"  X Erreur lors de la décompression de {fichier.name}: {e}")
     
-
 if __name__ == "__main__":
     # lancement du script
     input_folder = 'data/train/tar/' # chemin d'entree
