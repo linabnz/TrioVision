@@ -39,6 +39,6 @@ def decompresser_fichiers_tar(dossier_source, dossier_destination=None):
     
 if __name__ == "__main__":
     # lancement du script
-    input_folder = 'data/train/tar/' # chemin d'entree
-    output_folder = 'data/train/images/' # chemin de sortie
+    input_folder = 'data/train' # chemin d'entree
+    output_folder = 'data/train' # chemin de sortie
     fichiers = decompresser_fichiers_tar(input_folder, output_folder)
