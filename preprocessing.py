@@ -67,7 +67,7 @@ class Preprocessing:
     def create_label_mapping(self, labels):
         """
         crée un mapping entre les labels textuels et les index
-        ex :
+        exemple :
         {'Australia': 0,
         'Canada': 1,
         'China': 2,
@@ -120,6 +120,7 @@ class Preprocessing:
     
     def store_image_tensors(self, df, image_path_column='image_path', label_column='country', batch_size=None):
         """
+        méthode wrapper qui
         transforme les images path en tenseurs pour utilisation pytorch
         
         Args:

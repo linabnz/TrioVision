@@ -1,4 +1,5 @@
 .venv
 data/train/*
+data/results/train.pt
 stock/
 __pycache__
