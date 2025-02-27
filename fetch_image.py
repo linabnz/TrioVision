@@ -22,7 +22,7 @@ def fetch_images(image_ids, dossier_base):
 
         # on ne garde que les images trouvées
         if chemin_image.exists():
-            resultats[image_id] = str(chemin_image)
+            resultats[image_id] = str(chemin_image.as_posix())
         # else:
         #     resultats[image_id] = f"⚠️ Image introuvable : {chemin_image}"
 
