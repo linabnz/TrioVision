@@ -1,0 +1,108 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    }
+    to {
+        text-shadow: 0 0 20px #00fff9, 0 0 30px #00fff9, 0 0 40px #00fff9;
+    }
+}
+
+#drop-zone {
+    border: 2px dashed #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#drop-zone:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#drop-zone p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#results {
+    margin-top: 20px;
+}
+
+#predicted-country {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00fff9;
+}
+
+.logo {
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    }
+    to {
+        text-shadow: 0 0 20px #00fff9, 0 0 30px #00fff9, 0 0 40px #00fff9;
+    }
+}
