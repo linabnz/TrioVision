@@ -1,7 +1,9 @@
 # 🌍 TrioVision
 
 **AI-powered Image Geolocation**
-
+<p align="center">
+  <img src="data/equipe.png" alt="TrioVision Team" width="500">
+</p>
 TrioVision is an advanced web application that leverages deep learning to identify the country depicted in an image. Whether it's a natural landscape, a street, or a monument, TrioVision gives you the most likely country with rich visual explanations.
 
 ---
@@ -20,7 +22,7 @@ TrioVision is an advanced web application that leverages deep learning to identi
 
 Upload an image and get country predictions with confidence levels.
 
-![Demo](data/demo.gif)
+![Demo](data/demovid.gif)
 
 ---
 
