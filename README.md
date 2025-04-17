@@ -81,8 +81,8 @@ TrioVision/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/linabnz/triovision.git
-cd triovision
+git clone https://github.com/linabnz/TrioVision.git
+cd TrioVision
 ```
 
 ### 2. Create an environment & install dependencies
